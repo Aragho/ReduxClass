@@ -43,7 +43,7 @@ const Login = () =>{
             type="password"
             name="password"
             placeholder="Enter Password"
-            className="input"
+            className={style.input}
             onChange={handleChange}
             required
           />
